@@ -1,5 +1,6 @@
 name: FormAPI
 main: FormAPI\FormAPI
 version: 1.2.0
-author: DragoVN & Anonymous
-api: [1.12.0]
+author: jojoe77777
+authors: [DragonVN, Anonymous, IceCruelStuff]
+api: 1.12.0
