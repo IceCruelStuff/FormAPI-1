@@ -1,6 +1,7 @@
 name: FormAPI
 main: FormAPI\FormAPI
-version: 1.2.1
+version: 1.2.2
+load: STARTUP
 author: jojoe77777
 authors: [DragonVN, Anonymous, IceCruelStuff]
 api: 1.12.0
