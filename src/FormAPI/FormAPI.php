@@ -57,6 +57,7 @@ class FormAPI extends PluginBase {
     public static function createGUI(callable$function, $title = "", $content = "", $type = "form") {
         return new GuiManager($function, $title, $content, $type);
     }
+
 }
 
 class ButtonMC extends Button {
@@ -72,6 +73,7 @@ class ButtonMC extends Button {
     public function addImage($imageType, $imagePath) {
         parent::addImage($imageType, $imagePath);
     }
+
 }
 
 abstract class GUI implements CustomUI {
@@ -110,6 +112,7 @@ abstract class GUI implements CustomUI {
     public function getResult(&$data) : array {
         
     }
+
 }
 
 class GuiManager extends GUI {
@@ -250,4 +253,5 @@ class GuiManager extends GUI {
     final public function getResult(&$data) : array {
         return (is_array($data)) ? $data : [$data];
     }
+
 }
